@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+    <link rel="stylesheet" href="Products Page Style.css">
+    <script src="Products Page Script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li><img src="../img/logoPlaceholder.jpg" alt="logo"></li>
+                <li><a href="../Home/Home Page.html">Home</a></li>
+                <li><a href="../Products/Products Page.html">Products</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="boxSection" class="boxes"></section>
+        <footer>
+            <p>Golden Shoe &copy; 2018</p>
+        </footer>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBy_XNPMadpOG0Q4F8J5IAJADIFApjnTRE",
+            authDomain: "goldenshoe-78520.firebaseapp.com",
+            databaseURL: "https://goldenshoe-78520.firebaseio.com",
+            projectId: "goldenshoe-78520",
+            storageBucket: "",
+            messagingSenderId: "148364435738",
+            appId: "1:148364435738:web:660d28d42f1ff61dbb4ca3",
+            measurementId: "G-2W8XFWZK10"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
